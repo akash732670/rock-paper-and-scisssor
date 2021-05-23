@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: teal;
+}
+#home {
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.texts {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.option {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.rock1{
+    max-height: 150px;
+    max-width: 150px;
+    border: 5px solid white;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+.rock1 img {
+    width: 100%;
+    height: 100%;
+}
+.paper1{
+    max-height: 150px;
+    max-width: 150px;
+    border: 5px solid white;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+.paper1 img {
+    width: 100%;
+    height: 100%;
+}
+.sissor1{
+    max-height: 150px;
+    max-width: 150px;
+    border: 5px solid white;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+.sissor1 img {
+    width: 100%;
+    height: 100%;
+}
+.option button{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 45px;
+    padding: 10px 15px;
+}
+.alerts {
+    justify-content: center;
+    background-color: white;
+    height: 230px;
+    width: 210px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    text-align: center;
+    padding: 50px 50px;
+    justify-content: space-between;
+    transform: translateX(-50%) translateY(50%);
+    display: none;
+}
+.alerts .result {
+    font-size: x-large;
+}
+.alerts .content {
+    margin-top: 60px;
+}
+.alerts button {
+    border: none;
+    padding: 15px 10px;
+    margin-top: 40px;
+    background-color: teal;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+

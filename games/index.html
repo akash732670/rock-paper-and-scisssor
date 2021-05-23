@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="texts">
+        <h2>Lets start the game</h2>
+    </div>
+    <div class="select">
+        <div class="option">
+            <div class="rock rock1">
+                <img src="./img/rock.png" />
+                <button id="rock" value="rock" onclick="rocks()">Rock</button>
+            </div>
+            <div class="paper paper1">
+                <img src="./img/paper.png" />
+                <button id="paper" value="paper" onclick="papers()">Paper</button>
+            </div>
+            <div class="scissor sissor1">
+                <img src="./img/sissor.png" />
+                <button id="scissor" value="scissor" onclick="scissors()">Scissor</button>
+            </div>
+        </div>
+    </div>
+    <section id="deni">
+        <div class="alerts">
+            <p class="result"></p>
+            <p class="content">if you want to play again press the button</p>
+            <button id="reset" onclick="reset()">play again?</button>
+        </div>
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
